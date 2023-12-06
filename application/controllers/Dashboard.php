@@ -18,7 +18,9 @@ class Dashboard extends CI_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see https://codeigniter.com/userguide3/general/urls.html
 	 */
-
+/**
+ *Dashboard functionality
+ */
 	public function __construct() {
         parent::__construct();
         if(!$this->session->userdata('user_id')){
