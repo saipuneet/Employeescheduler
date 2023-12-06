@@ -79,7 +79,9 @@ class Dashboard extends CI_Controller {
 	{
 		$this->load->view('createSchedule');
 	}
-	
+	/**
+	 * Functionality to get the schedules from the employee
+	 */
 	public function getSchedules()
 	{
 
@@ -109,7 +111,10 @@ class Dashboard extends CI_Controller {
 		exit;
 
 	}
-	
+	/**
+	 * Functionality of employee list
+	 */
+
 	public function getEmployees()
 	{
 
@@ -122,7 +127,9 @@ class Dashboard extends CI_Controller {
 		echo $html;
 
 	}
-	
+	/**
+	 * Functionality of delete employee
+	 */
 	public function deleteEmployee($eid)
 	{
 
@@ -142,7 +149,9 @@ class Dashboard extends CI_Controller {
 		}
 
 	}
-
+/**
+ * Functionality of updatestation means locating the station to a particular person
+ */
 	public function updateStation()
 	{
 		$station = $this->input->post('station');
@@ -167,7 +176,9 @@ class Dashboard extends CI_Controller {
 			exit;
 		}
 	}
-	
+	/**
+	 * Functionality for insert the schedule 
+	 */
 	public function insertSchedule()
 	{
 		$user_id = $this->session->userdata('user_id');
@@ -208,7 +219,9 @@ class Dashboard extends CI_Controller {
 		}
 
 	}
-
+/**
+ * Functionality of updating the class timings
+ */
 	public function updateTimings()
 	{
 
@@ -245,7 +258,9 @@ class Dashboard extends CI_Controller {
 			exit;
 		}
 	}
-
+/**
+ * Functionality of making the request to admin
+ */
 	public function insertRequest()
 	{
 		$user_id = $this->session->userdata('user_id');
