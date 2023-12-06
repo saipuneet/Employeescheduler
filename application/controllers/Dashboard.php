@@ -27,7 +27,9 @@ class Dashboard extends CI_Controller {
 			redirect('home/login');
 		}
     } 
-
+/**
+ * Navigation bar
+ */
 	public function index()
 	{
 		$this->load->view('index');
