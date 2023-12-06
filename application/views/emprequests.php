@@ -1,6 +1,7 @@
 <?php
 $this->load->view('includes/header')
 ?>
+<!-- Designing the emp request page -->
 <!-- page content starts -->
 <div class="page-content">
   <div class="header">Requests</div>
