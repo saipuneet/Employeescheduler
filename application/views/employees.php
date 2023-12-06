@@ -1,6 +1,7 @@
 <?php
 $this->load->view('includes/header')
 ?>
+<!-- Designing the Employee pages using div container class and html and writing the script -->
 <!-- page content starts -->
 <div class="page-content">
   <div class="header">Employees</div>
