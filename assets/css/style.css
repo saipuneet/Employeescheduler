@@ -5,6 +5,10 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+/*
+Writing the styling using css for the web pages
+*/
+
 body{
     background: url("../images/1.jpg");
     background-size: cover;
