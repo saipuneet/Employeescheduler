@@ -28,7 +28,7 @@ class Dashboard extends CI_Controller {
 		}
     } 
 /**
- * Navigation bar
+ * Navigation bar pages for employee,help,documents,mngrequests,adminrequest,request page
  */
 	public function index()
 	{
