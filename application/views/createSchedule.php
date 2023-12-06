@@ -1,7 +1,7 @@
 <?php
   $this->load->view('includes/header')
 ?>
-
+<!-- Designing the create schedule using style and html and js-->
 <style>
 .fc-timegrid-slot {
     height: 35px !important
